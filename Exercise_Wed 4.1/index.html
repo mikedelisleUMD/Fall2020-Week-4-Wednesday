@@ -2,42 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Draw a home using SVG</title>
-    <link rel="stylesheet" href="style.css">
-
+    <title>Title</title>
 </head>
 <body>
-<h3>
-Draw A home Clip Art using SVG tags
-</h3>
-<p>
-    Use your creativity, there is no limit!
-</p>
-<ol>
-    <li>
-        Search for transform rotate for the roof
-    </li>
-    <li>
-        it Should have a roof, a window and a door at least!
-    </li>
-    <li>
-        The windows should be colored light blue.
-    </li>
-    <li>
-        Describe each line using html commenting tags.
-    </li>
-    <li>
-        Use of arc-path tags has extra points (+5)
-    </li>
-    <li>
-        Put the link to your GitHub in the assignment (in myCourses).
-    </li>
-</ol>
 
-<p>
-    <emps>
-        Due date is Monday 28 September!
-    </emps>
-</p>
+<h2>Tennis Ball!</h2>
+
+<svg viewBox="0 0 50 50">
+    <! -- This is the main layer of the tennis ball -- >
+    <g id="to be decided">
+        <circle id="Tennis_Ball" cx="25" cy="10" r="5" fill="#dfff4f"></circle>
+    </g>
+
+    <! -- The two arcs will act as the white lines in a tennis ball -- >
+    <path stroke="white" fill="none" stroke-width=".15"
+          d="M 13 0
+            A 2.5 2.5
+            0
+            0
+            1
+            13 20
+            "
+    ></path>
+    <path stroke="white" fill="none" stroke-width=".15"
+          d="M 37 0
+            A 2.5 2.5
+            0
+            0
+            0
+            37 20
+            "
+    ></path>
+</svg>
+
+
 </body>
 </html>
